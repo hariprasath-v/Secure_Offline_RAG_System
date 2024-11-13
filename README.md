@@ -12,7 +12,7 @@ Create a Versatile Local Chat Interface: Build a chat interface that interacts w
 ## My Approach
 - Created embeddings using the sentence-transformers model: multi-qa-MiniLM-L6-cos-v1.
 - Built a FAISS HNSW index with the embeddings for efficient vector search.
-- Retrieved the top 10 results using dense embeddings, created query-response pairs from these results, and re-ranked them using a cross-encoder model.
+- Retrieved the top 10 results using dense embeddings, created query-response pairs from these results, and re-ranked them using a cross-encoder model ms-marco-MiniLM-L-12-v2.
   
 ## How to Run
 Simply follow the steps in the provided Jupyter Notebook.
